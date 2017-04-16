@@ -15,10 +15,10 @@ Ahora procedemos a configurar el archivo /etc/nginx/conf.d/default.conf de la si
 Una vez configurado el archivo default.conf hemos borrado el archivo /etc/nginx/sites-enabled/default para que nos salga la página de inicio de cada una de las máquinas
 ![Practica3](/Practica3/RmDefault.png)
 
-Y una vez hecho esto ya podemos comprobar que el balanceo de carga entre las dos máquinas que en nuestro caso hemos modificado el archivo default.conf con la orden keepalive 3; para que mantenga las conexión durante 3 segundos:
+Y una vez hecho esto ya podemos comprobar que el balanceo de carga entre las dos máquinas que en nuestro caso hemos modificado el archivo default.conf para que la máquina 1 tenga el doble de capacidad que la máquina 2:
 
-![Practica3](/Practica3/ArchivpoConfFinal.png)
+![Practica3](/Practica3/ConfiguracionDefaultFinal.png)
 
 Finalmente podemos comprobar el reparto de carga final:
 
-![Practica3](/Practica3/NginxFuncioandoFinal.png)
+![Practica3](/Practica3/FuncionaminetoFinal.png)
