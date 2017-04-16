@@ -1,5 +1,6 @@
 # Documentacion Práctica 3 #
 
+#Servidor Web Nginx#
 1.Una vex instalado nginx en la maquina balanceadora con los comandos:
 
 sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get
@@ -22,3 +23,22 @@ Y una vez hecho esto ya podemos comprobar que el balanceo de carga entre las dos
 Finalmente podemos comprobar el reparto de carga final:
 
 ![Practica3](/Practica3/FuncionaminetoFinal.png)
+
+#Balanceo de carga con haproxy#
+
+Primero instalamos haproxy con:
+
+sudo apt-get install haproxy
+
+Ahora procedemos a configurar el archivo /etc/haproxy/haproxy.cfg que lo dejamos de la siguiente manera:
+
+![Practica3](/Practica3/ConfiguracionHaproxy.png)
+
+
+Lanzamos el el servicio con el comando:
+
+sudo /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg
+
+Y comprobamos el balanceo de carga:
+
+![Practica3](/Practica3/RepartoHaproxy.png)
