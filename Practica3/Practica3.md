@@ -1,7 +1,7 @@
 # Documentacion Práctica 3 #
 
 ## Servidor Web Nginx
-1.Una vex instalado nginx en la maquina balanceadora con los comandos:
+Una vex instalado nginx en la maquina balanceadora con los comandos:
 
 sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get
 autoremove
@@ -42,3 +42,19 @@ sudo /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg
 Y comprobamos el balanceo de carga:
 
 ![Practica3](/Practica3/RepartoHaproxy.png)
+
+## Someter a una alta carga el servidor balanceador
+
+Con el comando:
+
+ab -n 10000 -c 100 10.0.2.14/index.html
+
+Hacemos un Benchmark a la máquina balanceadora.
+
+Primeramente le realizamos el Benchmark con el servicio Nginx funcionando:
+
+![Practica3](/Practica3/ApacheBenchmarktNginx.png)
+
+Y ahora realizamos el mismo Benchmark con el servicio Haproxy funcionando:
+
+![Practica3](/Practica3/ApacheBenchmarkHaproxy.png)
