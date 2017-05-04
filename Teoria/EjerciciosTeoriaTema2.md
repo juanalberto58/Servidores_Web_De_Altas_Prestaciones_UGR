@@ -1,8 +1,8 @@
-EJERCICIOS TEMA 2
+#**EJERCICIOS TEMA 2**
 
-EJERCICIO 2.1
+##**EJERCICIO 2.1**
 
-Calcular la disponibilidad del sistema si tenemos dos réplicas de cada elemento (en total 3 elementos en cada subsistema).
+**Calcular la disponibilidad del sistema si tenemos dos réplicas de cada elemento (en total 3 elementos en cada subsistema).**
 
 Utilizando la formula de las transparencias As=(Acn-1 + ((1 - Acn-1) * Acn):
 
@@ -21,9 +21,9 @@ Disponibilidad del sistema: 99.25%*99.99%*100.00%*100.00%*99.95%*100.00%*100.00%
 
 
 
-EJERCICIO 2.2
+##**EJERCICIO 2.2**
 
-Buscar frameworks y librerías para diferentes lenguajes que permitan hacer aplicaciones altamente disponibles con relativa facilidad.
+**Buscar frameworks y librerías para diferentes lenguajes que permitan hacer aplicaciones altamente disponibles con relativa facilidad.**
 
 -Microsoft Operations Framework: Ofrece directrices que permiten a las organizaciones obtener las características esenciales de confiabilidad, disponibilidad, compatibilidad y capacidad de administración de los productos y tecnologías de Microsoft. 
 
@@ -32,9 +32,9 @@ Buscar frameworks y librerías para diferentes lenguajes que permitan hacer apli
 
 
 
-EJERCICIO 2.3
+##**EJERCICIO 2.3**
 
-¿Cómo analizar el nivel de carga de cada uno de los subsistemas en el servidor?
+**¿Cómo analizar el nivel de carga de cada uno de los subsistemas en el servidor?**
 
 Existen multitud de herramientas de monitorización del nivel de carga de un servidor como por ejemplo las siguientes:
 
@@ -47,9 +47,9 @@ Existen multitud de herramientas de monitorización del nivel de carga de un ser
 
 
 
-EJERCICIO 2.4
+##EJERCICIO 2.4
 
-Buscar ejemplos de balanceadores software y hardware (productos comerciales).
+**Buscar ejemplos de balanceadores software y hardware (productos comerciales).**
 
 	-F5 BIG-IP LTM
 	-Radware AppDirector OnDemand Switch
@@ -59,14 +59,14 @@ Buscar ejemplos de balanceadores software y hardware (productos comerciales).
 Aunque los mas conocidos son Nginx y HAProxy
 
 
-Buscar productos comerciales para servidores de aplicaciones.
+**Buscar productos comerciales para servidores de aplicaciones.**
 
 	-WebLogic de Oracle
 	-JBoss Enterprise Application Platform de Red Hat
 	-WebSphere de IBM
 
 
-Buscar productos comerciales para servidores de almacenamiento.
+**Buscar productos comerciales para servidores de almacenamiento.**
 
 	-Servidores NAS
 
