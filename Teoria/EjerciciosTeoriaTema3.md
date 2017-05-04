@@ -9,11 +9,11 @@
 
 -En Linux, la configuración de red se guarda en el archivo /etc/network/interfaces, el cual contiene un mini-lenguaje de descripción y configuración para cada interfaz de red, la configuración se puede asignar estáticamente o por DHCP. En una configuración estática típica se pueden indicar las siguientes cuestiones:
 
-La dirección de red: address 192.168.1.10.
-La máscara de subred: netmask 255.255.255.0.
-La red: network 192.168.1.0
-La dirección broadcast: broadcast 192.168.1.255.
-La puerta de enlace: gateway 192.168.1.1.
+	-La dirección de red: address 192.168.1.10.
+	-La máscara de subred: netmask 255.255.255.0.
+	-La red: network 192.168.1.0
+	-La dirección broadcast: broadcast 192.168.1.255.
+	-La puerta de enlace: gateway 192.168.1.1.
 
 Para crear una ruta se utiliza el comando route.
 
