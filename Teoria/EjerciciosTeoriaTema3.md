@@ -5,9 +5,9 @@
 **Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux el enrutamiento del tráfico de un servidor para pasar el tráfico desde una subred a otra.**
 
 
-Windows incluye el 'Servicio de Enrutamiento' y 'Acceso Remoto' que permite conectividad a usuarios remotos o conectividad entre sitios mediante conexiones de acceso telefónico o de red privada virtual (VPN) siguiendo un asistente.
+-Windows incluye el 'Servicio de Enrutamiento' y 'Acceso Remoto' que permite conectividad a usuarios remotos o conectividad entre sitios mediante conexiones de acceso telefónico o de red privada virtual (VPN) siguiendo un asistente.
 
-En Linux, la configuración de red se guarda en el archivo /etc/network/interfaces, el cual contiene un mini-lenguaje de descripción y configuración para cada interfaz de red, la configuración se puede asignar estáticamente o por DHCP. En una configuración estática típica se pueden indicar las siguientes cuestiones:
+-En Linux, la configuración de red se guarda en el archivo /etc/network/interfaces, el cual contiene un mini-lenguaje de descripción y configuración para cada interfaz de red, la configuración se puede asignar estáticamente o por DHCP. En una configuración estática típica se pueden indicar las siguientes cuestiones:
 
 La dirección de red: address 192.168.1.10.
 La máscara de subred: netmask 255.255.255.0.
