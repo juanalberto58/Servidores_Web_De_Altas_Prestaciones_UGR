@@ -1,8 +1,8 @@
-EJERCICIOS TEMA 3
+# **EJERCICIOS TEMA 3**
 
-EJERCICIO 3.1:
+## **EJERCICIO 3.1:**
 
-Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux el enrutamiento del tráfico de un servidor para pasar el tráfico desde una subred a otra.
+**Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux el enrutamiento del tráfico de un servidor para pasar el tráfico desde una subred a otra.**
 
 
 Windows incluye el 'Servicio de Enrutamiento' y 'Acceso Remoto' que permite conectividad a usuarios remotos o conectividad entre sitios mediante conexiones de acceso telefónico o de red privada virtual (VPN) siguiendo un asistente.
@@ -18,9 +18,9 @@ La puerta de enlace: gateway 192.168.1.1.
 Para crear una ruta se utiliza el comando route.
 
 
-EJERCICIO 3.2:
+## **EJERCICIO 3.2:**
 
-Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux el filtrado y bloqueo de paquetes.
+**Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux el filtrado y bloqueo de paquetes.**
 
 -En Windows utilizamos IPsec.
 
