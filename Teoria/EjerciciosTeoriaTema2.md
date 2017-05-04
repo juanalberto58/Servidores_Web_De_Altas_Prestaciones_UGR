@@ -6,15 +6,16 @@ Calcular la disponibilidad del sistema si tenemos dos réplicas de cada elemento
 
 Utilizando la formula de las transparencias As=(Acn-1 + ((1 - Acn-1) * Acn):
 
-2Replicas	3Replicas
-97,75%		99,95%
-99,00%		99,99%
-100,00%		100,00%
-99,96%		100,00%
-97,75%		99,95%
-99,99%		100,00%
-99,99%		100,00%
-99,75%		100,00%
+2Replicas | 3Replicas
+-- | --
+97,75% | 99,95%
+99,00% | 99,99%
+100,00%	| 100,00%
+99,96% | 100,00%
+97,75% | 99,95%
+99,99% | 100,00%
+99,99% | 100,00%
+99,75% | 100,00%
 
 Disponibilidad del sistema: 99.25%*99.99%*100.00%*100.00%*99.95%*100.00%*100.00%*100.00%=99.89%
 
