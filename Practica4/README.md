@@ -1,7 +1,7 @@
 # Documentacion Práctica 4 #
 # ASEGURAR LA GRANJA WEB #
 
-##Instalar certificado SSL autofirmado para configurar el acceso HTTPS a los servidores
+## Instalar certificado SSL autofirmado para configurar el acceso HTTPS a los servidores
 
 Lo primero que haremos será habilitar el modulo SSL con:
 
