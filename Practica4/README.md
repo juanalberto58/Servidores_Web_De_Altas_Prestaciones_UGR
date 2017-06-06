@@ -21,7 +21,7 @@ Y ahora generaremos el certificado con:
 
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/apache.key -out /etc/apache2/ssl/apache.crt
 
-Que nos pedira cierta información para la configuración del dominio
+Que nos pedirá cierta información para la configuración del dominio
 
 Todo esto por supuesto hay que realizarlo como root:
 
@@ -56,11 +56,10 @@ Una vez creado el script procederemos a añadirlo al archivo rc.local que se enc
 
 Como vemos primero accedemos al directorio donde se encuentra el script, le damos permisos de ejecución y seguidamente lo ejecutamos.
 
-Ahora para comprobar que todo ha ido correctamente utilizando el comando:
+Ahora para comprobar que todo ha ido correctamente utilizaremos el comando:
 
 iptables -L -n -v
 
 Que nos mostrara el estado del cortafuegos:
 
 ![Practica4](/Practica4/IptablesFuncionando.png)
-
