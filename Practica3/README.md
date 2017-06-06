@@ -1,7 +1,7 @@
 # Documentacion Práctica 3 #
 
 ## Servidor Web Nginx
-Una vex instalado nginx en la maquina balanceadora con los comandos:
+Una vex instalado nginx en la máquina balanceadora con los comandos:
 
 sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get
 autoremove
@@ -16,7 +16,7 @@ Ahora procedemos a configurar el archivo /etc/nginx/conf.d/default.conf de la si
 Una vez configurado el archivo default.conf hemos borrado el archivo /etc/nginx/sites-enabled/default para que nos salga la página de inicio de cada una de las máquinas
 ![Practica3](/Practica3/RmDefault.png)
 
-Y una vez hecho esto ya podemos comprobar que el balanceo de carga entre las dos máquinas que en nuestro caso hemos modificado el archivo default.conf para que la máquina 1 tenga el doble de capacidad que la máquina 2:
+Y una vez hecho esto, ya podemos comprobar que el balanceo de carga entre las dos máquinas que en nuestro caso hemos modificado el archivo default.conf para que la máquina 1 tenga el doble de capacidad que la máquina 2:
 
 ![Practica3](/Practica3/ConfiguracionDefaultFinal.png)
 
@@ -35,7 +35,7 @@ Ahora procedemos a configurar el archivo /etc/haproxy/haproxy.cfg que lo dejamos
 ![Practica3](/Practica3/ConfiguracionHaproxy.png)
 
 
-Lanzamos el el servicio con el comando:
+Lanzamos el servicio con el comando:
 
 sudo /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg
 
